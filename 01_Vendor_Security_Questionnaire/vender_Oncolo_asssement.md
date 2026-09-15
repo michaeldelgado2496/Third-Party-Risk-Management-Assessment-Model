@@ -18,12 +18,12 @@
 ### Data Protection
 
 * **Data Encryption at Rest:** *(Yes)* Patient electronic protect health information is encrypted in idle using AES-256. 
-* **Data Encryption in Transit:** *Yes*
+* **Data Encryption in Transit:** *(No)* HTTPS is not enforced across all portal web traffic.
 
 ### Compliance & Governance
 
-* **Third-Party Audits:** *[Yes / No / Comments]*
-* **Incident Response Plan:** *[Yes / No / Comments]*
+* **Third-Party Audits:** *Last audit was in 2021* Vendor Oncolo has yet to complete a HIPPA compliance asssessment.
+* **Incident Response Plan:** *(Yes)* There is a documented data breach response plan set in place.  
 
 ---
 
