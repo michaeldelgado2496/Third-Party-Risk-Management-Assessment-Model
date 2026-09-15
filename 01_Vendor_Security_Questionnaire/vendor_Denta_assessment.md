@@ -20,7 +20,7 @@
 
 ### Compliance & Governance
 * **Third-Party Audits:** *(Yes)* Vendor Denta has completed a HIPAA compliance assessment.
-* **Incident Response Plan:** *No* A documented data breach response plan currently does not exist for handling ePHI leaks.
+* **Incident Response Plan:** *(No)* A documented data breach response plan currently does not exist for handling ePHI leaks.
 
 
 
