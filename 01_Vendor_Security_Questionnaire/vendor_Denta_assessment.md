@@ -15,7 +15,7 @@
 * **Principle of Least Privilege:** *(Yes)* Dental staff roles only have role-based database access restricted to required fields (e.g., daily charting)
 
 ### Data Protection
-* **Data Encryption at Rest:** *(Yes)* Patient electronic protected health information is encrypted in idle using AES-256.
+* **Data Encryption at Rest:** *(Yes)* Patient electronic protected health information is encrypted at rest using AES-256.
 * **Data Encryption in Transit:** *(Yes)* HTTPS is enforced across all patient portal web traffic.
 
 ### Compliance & Governance
