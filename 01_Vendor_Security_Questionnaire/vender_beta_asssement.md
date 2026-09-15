@@ -2,9 +2,9 @@
 ## Assessment Overview
 
 * **Vendor Name:** Vendor Oncolo
-* **Date Evaluated:** [Insert Date]
+* **Date Evaluated:** September 7, 2026
 * **Assessed By:** Michael Delgado (GRC Analyst)
-* **Overall Risk Tier:** [Low / Medium / High]
+* **Overall Risk Tier:** High
 
 ---
 
