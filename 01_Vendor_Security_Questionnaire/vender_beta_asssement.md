@@ -1,8 +1,7 @@
-# Vendor Risk Assessment: Vendor Beta ([Insert Software/Service Type])
-
+# Vendor Risk Assessment: Vendor Oncolo 
 ## Assessment Overview
 
-* **Vendor Name:** Vendor 
+* **Vendor Name:** Vendor Oncolo
 * **Date Evaluated:** [Insert Date]
 * **Assessed By:** Michael Delgado (GRC Analyst)
 * **Overall Risk Tier:** [Low / Medium / High]
