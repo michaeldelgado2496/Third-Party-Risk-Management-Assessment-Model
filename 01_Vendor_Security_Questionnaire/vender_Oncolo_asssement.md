@@ -13,18 +13,18 @@
 
 ### Access Control
 
-* **Multi-Factor Authentication:** *No* MFA is not enforced to gain access to the administrative database containing patient health records.
-* **Principle of Least Privilege:** *No* Oncologist staff have full access beyond what is necessary for their role.
+* **Multi-Factor Authentication:** *(No)* MFA is not enforced to gain access to the administrative database containing patient health records.
+* **Principle of Least Privilege:** *(No)* Oncologist staff have full access beyond what is necessary for their role.
 
 ### Data Protection
 
-* **Data Encryption at Rest:** *Yes* Patient electronic protected health information is encrypted at rest using AES-256.
-* **Data Encryption in Transit:** *No* HTTPS is not enforced across all portal web traffic.
+* **Data Encryption at Rest:** *(Yes)* Patient electronic protected health information is encrypted at rest using AES-256.
+* **Data Encryption in Transit:** *(No)* HTTPS is not enforced across all portal web traffic.
 
 ### Compliance & Governance
 
-* **Third-Party Audits:** *Last audit was in 2021.* Vendor Oncolo has yet to complete a HIPAA compliance assessment.
-* **Incident Response Plan:** *Yes* There is a documented data breach response plan in place.
+* **Third-Party Audits:** *(Last audit was in 2021.)* Vendor Oncolo has yet to complete a HIPAA compliance assessment.
+* **Incident Response Plan:** *(Yes)* There is a documented data breach response plan in place.
 
 ---
 
