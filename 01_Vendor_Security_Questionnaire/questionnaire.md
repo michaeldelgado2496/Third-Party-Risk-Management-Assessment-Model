@@ -14,7 +14,7 @@ This questionnaire is designed to evaluate the security posture, data protection
 
 ## 2. Data Protection
 
-* **2.1 Data Encryption at Rest:** *Is all patient electronic protected health information encrypted in idle using AES-256?* *(Yes / No / Comments)*
+* **2.1 Data Encryption at Rest:** *Is all patient electronic protected health information encrypted at rest using AES-256?* *(Yes / No / Comments)*
 * **2.2 Data Encryption in Transit:** *Is HTTPS enforced across all patient portal web traffic?* *(Yes / No / Comments)*
 
 ---
