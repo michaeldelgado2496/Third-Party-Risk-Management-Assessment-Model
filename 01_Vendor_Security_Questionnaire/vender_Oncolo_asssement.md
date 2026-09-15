@@ -12,13 +12,13 @@
 
 ### Access Control
 
-* **Multi-Factor Authentication:** *[Yes / No / Comments]*
-* **Principle of Least Privilege:** *[Yes / No / Comments]*
+* **Multi-Factor Authentication:** *(No)* MFA is not enforced to gain access to the administrative database containing the patients health records
+* **Principle of Least Privilege:** *(No)* Oncologist staff have full access to beyond what is necessary for their role
 
 ### Data Protection
 
-* **Data Encryption at Rest:** *[Yes / No / Comments]*
-* **Data Encryption in Transit:** *[Yes / No / Comments]*
+* **Data Encryption at Rest:** *(Yes)* Patient electronic protect health information is encrypted in idle using AES-256. 
+* **Data Encryption in Transit:** *Yes*
 
 ### Compliance & Governance
 
