@@ -10,12 +10,19 @@
 
 ## Questionnaire Response Review
 
-* **1.1 Multi-Factor Authentication:** *No.* MFA is not enforced for developer console access, only for standard user accounts. *(Action Item: Flagged for remediation)*
-* **1.2 Principle of Least Privilege:** *Partially Implemented.* Access reviews are ad-hoc and not documented formally.
-* **2.1 Data Encryption at Rest:** *Yes.* All sensitive client data is encrypted at rest using AES-256.
-* **2.2 Data Encryption in Transit:** *Yes.* TLS 1.3 is used for all API communications.
-* **3.1 Third-Party Audits:** *No.* Vendor Gamma has not yet undergone a SOC 2 audit but states they are "working towards it." *(Action Item: Critical - Flagged for remediation)*
-* **4.1 Incident Response Plan:** *Yes.* A documented IR plan exists and is reviewed annually.
+### Access Control
+* **Multi-Factor Authentication:** *No.* MFA is not enforced for administrative database access containing patient dental records. *(Action Item: Flagged for remediation)*
+* **Principle of Least Privilege:** *Partially Implemented.* Dental staff roles have broader database access than required for daily charting.
+
+### Data Protection
+* **Data Encryption at Rest:** *Yes.* Patient electronic protected health information (ePHI) is encrypted at rest using AES-256.
+* **Data Encryption in Transit:** *Yes.* TLS 1.3 is enforced for all patient portal web traffic.
+
+### Compliance & Governance
+* **Third-Party Audits:** *No.* Vendor Denta has not completed a HIPAA compliance assessment or SOC 2 audit. *(Action Item: Critical - Flagged for remediation)*
+* **Incident Response Plan:** *Yes.* A documented data breach response plan exists for handling ePHI leaks.
+
+
 
 ---
 
