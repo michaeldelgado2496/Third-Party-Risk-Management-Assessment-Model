@@ -11,8 +11,8 @@
 ## Questionnaire Response Review
 
 ### Access Control
-* **Multi-Factor Authentication:** *Yes** MFA is enforced for administrative database access containing patient dental records.
-* **Principle of Least Privilege:** *Yes** Dental staff roles only have role-based database access restricted to required fields (e.g., daily charting)
+* **Multi-Factor Authentication:** *(Yes)* MFA is enforced for administrative database access containing patient dental records.
+* **Principle of Least Privilege:** *(Yes)* Dental staff roles only have role-based database access restricted to required fields (e.g., daily charting)
 
 ### Data Protection
 * **Data Encryption at Rest:** *Yes.* Patient electronic protected health information is encrypted in idle using AES-256.
