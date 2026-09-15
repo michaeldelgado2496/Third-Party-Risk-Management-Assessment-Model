@@ -1,4 +1,4 @@
-# Vendor Risk Assessment: Vendor Oncolo 
+# Vendor Risk Assessment: Vendor Oncolo (Oncology Electronic Health Record Software)
 ## Assessment Overview
 
 * **Vendor Name:** Vendor Oncolo
