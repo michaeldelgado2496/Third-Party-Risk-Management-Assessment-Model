@@ -2,7 +2,7 @@
 
 ## Assessment Overview
 
-* **Vendor Name:** Vendor Beta
+* **Vendor Name:** Vendor 
 * **Date Evaluated:** [Insert Date]
 * **Assessed By:** Michael Delgado (GRC Analyst)
 * **Overall Risk Tier:** [Low / Medium / High]
