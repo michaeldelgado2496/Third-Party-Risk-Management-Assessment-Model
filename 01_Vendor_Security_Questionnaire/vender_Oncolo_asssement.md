@@ -23,7 +23,7 @@
 
 ### Compliance & Governance
 
-* **Third-Party Audits:** *(Last audit was in 2021.)* Vendor Oncolo has yet to complete a HIPAA compliance assessment.
+* **Third-Party Audits:** *(No)* Last audit was in 2021. Vendor Oncolo has yet to complete a HIPAA compliance assessment.
 * **Incident Response Plan:** *(Yes)* There is a documented data breach response plan in place.
 
 ---
