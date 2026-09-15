@@ -1,4 +1,5 @@
 # Vendor Risk Assessment: Vendor Oncolo (Oncology Electronic Health Record Software)
+
 ## Assessment Overview
 
 * **Vendor Name:** Vendor Oncolo
@@ -12,23 +13,21 @@
 
 ### Access Control
 
-* **Multi-Factor Authentication:** *(No)* MFA is not enforced to gain access to the administrative database containing the patients health records
-* **Principle of Least Privilege:** *(No)* Oncologist staff have full access to beyond what is necessary for their role
+* **Multi-Factor Authentication:** *No* MFA is not enforced to gain access to the administrative database containing patient health records.
+* **Principle of Least Privilege:** *No* Oncologist staff have full access beyond what is necessary for their role.
 
 ### Data Protection
 
-* **Data Encryption at Rest:** *(Yes)* Patient electronic protect health information is encrypted in idle using AES-256. 
-* **Data Encryption in Transit:** *(No)* HTTPS is not enforced across all portal web traffic.
+* **Data Encryption at Rest:** *Yes* Patient electronic protected health information is encrypted at rest using AES-256.
+* **Data Encryption in Transit:** *No* HTTPS is not enforced across all portal web traffic.
 
 ### Compliance & Governance
 
-* **Third-Party Audits:** *Last audit was in 2021* Vendor Oncolo has yet to complete a HIPPA compliance asssessment.
-* **Incident Response Plan:** *(Yes)* There is a documented data breach response plan set in place.  
+* **Third-Party Audits:** *Last audit was in 2021.* Vendor Oncolo has yet to complete a HIPAA compliance assessment.
+* **Incident Response Plan:** *Yes* There is a documented data breach response plan in place.
 
 ---
 
 ## GRC Recommendation
 
-
-
-**Decision:** **Rejected** There is multiple risks that were flagged; no MFA, Oncologist Staff have access to parts the database they shouldn't such as payroll, Lack of encrpytion in Transit, No recent third-party audit its been half a decade since the last audit 
+**Decision:** **Rejected** There are multiple risks that were flagged: lack of MFA; oncologist staff having access to parts of the database they shouldn't (such as payroll); lack of encryption in transit; and no recent third-party audit, as it has been 5 years since the last assessment.
