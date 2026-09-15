@@ -29,6 +29,6 @@
 
 ## GRC Recommendation
 
-[Insert brief summary explaining the vendor's risk posture and overall justification.]
 
-**Decision:** **[Approved / Rejected / Pending for onboarding.]** [Insert required remediation or next steps.]
+
+**Decision:** **Rejected** There is multiple risks that were flagged; no MFA, Oncologist Staff have access to parts the database they shouldn't such as payroll, Lack of encrpytion in Transit, No recent third-party audit its been half a decade since the last audit 
