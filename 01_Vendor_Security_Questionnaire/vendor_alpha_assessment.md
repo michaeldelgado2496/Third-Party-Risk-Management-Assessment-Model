@@ -4,18 +4,18 @@
 * **Vendor Name:** Vendor Denta
 * **Date Evaluated:** September 14, 2026
 * **Assessed By:** Michael Delgado (GRC Analyst)
-* **Overall Risk Tier:** High Risk
+* **Overall Risk Tier:** Low Risk
 
 ---
 
 ## Questionnaire Response Review
 
 ### Access Control
-* **Multi-Factor Authentication:** *No.* MFA is not enforced for administrative database access containing patient dental records. *(Action Item: Flagged for remediation)*
-* **Principle of Least Privilege:** *Partially Implemented.* Dental staff roles have broader database access than required for daily charting.
+* **Multi-Factor Authentication:** MFA is enforced for administrative database access containing patient dental records.
+* **Principle of Least Privilege:** Dental staff roles only have role-based database access restricted to required fields (e.g., daily charting)
 
 ### Data Protection
-* **Data Encryption at Rest:** *Yes.* Patient electronic protected health information (ePHI) is encrypted at rest using AES-256.
+* **Data Encryption at Rest:** *Yes.* Patient electronic protected health information is encrypted in idle using AES-256.
 * **Data Encryption in Transit:** *Yes.* TLS 1.3 is enforced for all patient portal web traffic.
 
 ### Compliance & Governance
