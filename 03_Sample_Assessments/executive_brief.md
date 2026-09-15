@@ -1,18 +1,17 @@
-# Executive Risk Summary: Cloud SaaS Vendor Assessment
+# Executive Risk Summary: Third-Party Vendor Portfolio Assessment
 
 ## 1. Executive Summary
 
-This brief summarizes the third-party risk assessment conducted for **CloudData Corp**, a prospective Tier 1 SaaS vendor requesting access to internal infrastructure and handling sensitive customer data.
+This brief summarizes the third-party risk assessments conducted for prospective vendors seeking access to internal infrastructure and sensitive patient health information (PHI/ePHI).
 
-Based on our security evaluation, CloudData Corp has received a **Medium Risk** status due to failing 1 out of 6 core security controls (missing recent penetration testing documentation). Conditional approval is recommended pending remediation.
+Using our quantitative failure-count risk scoring methodology, two vendors were evaluated: **Vendor Oncolo** (High Risk / Rejected) and **Vendor Denta** (Medium Risk / Conditional Approval). 
 
-## 2. Assessment Findings
+## 2. Assessment Findings Summary
 
-* **Access Control & Encryption (Pass):** Vendor mandates MFA for all administrative accounts and utilizes AES-256 (at rest) and TLS 1.3 (in transit).
-* **Compliance & Audit (Conditional Fail):** Vendor possesses an active SOC 2 Type II report, but failed to provide documentation of an independent third-party network penetration test conducted within the last 12 months.
-* **Incident Response (Pass):** Vendor maintains an annual tested incident response plan with a guaranteed 48-hour breach notification SLA.
+* **Vendor Oncolo (High Risk - Rejected):** Failed 3+ core controls, lacking administrative MFA, proper transit encryption, least-privileged role access, and current third-party audits. Automatic rejection applied.
+* **Vendor Denta (Medium Risk - Pending):** Failed 1 core control due to the absence of a formal data breach response plan, while successfully meeting encryption, least-privilege, and HIPAA assessment criteria. Conditional approval granted pending remediation.
 
-## 3. Recommendation & Remediation Plan
+## 3. Recommendations & Governance Action
 
-* **Status:** Conditional Approval (Medium Risk Threshold: 1–2 Failures).
-* **Required Action:** CloudData Corp must provide an executive summary of a third-party penetration test or execute a binding security addendum committing to a formal test within 30 days of onboarding.
+* **Vendor Oncolo:** Onboarding denied; communication sent regarding critical security gaps.
+* **Vendor Denta:** Conditional onboarding granted; vendor required to submit a formalized incident response plan within 30 days.
