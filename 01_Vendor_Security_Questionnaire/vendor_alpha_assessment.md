@@ -1,7 +1,7 @@
-# Vendor Risk Assessment: Vendor Gamma (AI Transcription Service)
+# Vendor Risk Assessment: Vendor Denta (Dental Management Software)
 
 ## Assessment Overview
-* **Vendor Name:** Vendor Gamma Ltd.
+* **Vendor Name:** Vendor Denta
 * **Date Evaluated:** September 14, 2026
 * **Assessed By:** Michael Delgado (GRC Analyst)
 * **Overall Risk Tier:** High Risk
